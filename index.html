@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Feedback Form</h1>
+<p>Please fill out this form to help us improve our site</p>
+
+<form action="/action_page.php">
+<p> <label> Name: 
+<input name = "name" type = "text" size = "25" maxlength = "30">
+</label> </p>
+
+<p> <label> Comments: 
+<br>
+<textarea rows = "4" cols = "50"> Enter comments here.
+</textarea>
+</label> </p>
+
+<p> <label> E-mail Address: 
+<input mail = "mail" type = "text" size = "25" maxlength = "30">
+</label> </p>
+
+<p> <b> Things you liked: </b>  </p>
+    Site Design <input type="checkbox" name="hobby1" value="sitedesign" >
+ <label for="hobby1"> </label> 
+  
+ Links <input type="checkbox" name="hobby2" value="Links" >
+   <label for="hobby2"> </label> 
+  
+ Ease of use <input type="checkbox" name="hobby3" value="Ease of use" >
+   <label for="hobby3"> </label> 
+  
+  Images <input type="checkbox" name="hobby4" value="images" >
+   <label for="hobby4"> </label> 
+  
+  Source code <input type="checkbox" name="hobby5" value="source code" >
+    <label for="hobby5"> </label> 
+ 
+ <p> <b> How did you get to our site?: </b>  </p>
+
+Search engine <input type="radio" name="site" value="search engine" >
+ 
+ Links from another site <input type="radio" name="site" value="links" >
+
+ Deitel..com Web site <input type="radio" name="site" value="web" >
+
+ Refence in a book <input type="radio" name="site" value="book" >
+ 
+ Other<input type="radio" name="site" value="other" >
+ 
+     <br>     <br>
+ 
+  <label for="rate">Rate our site:</label>
+   <select id="rate" name="rate">
+  
+  <option value = "amazing" > Amazing </option>
+  
+  <option value = "good" > Good </option>
+  
+  <option value = "ok" > Ok </option>
+  </select>
+ 
+  
+  
+  <br>   <br>
+
+   <input type="submit" value="Submit">
+  <input type="reset" value="Clear">
+</form>
+
+</body>
+</html>
